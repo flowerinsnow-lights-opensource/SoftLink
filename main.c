@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
 
 #define PROGRAM_NAME "C:\\PROGRA~1\\Java\\jdk8u312-b01\\jre\\bin\\java.exe"
 
@@ -24,7 +23,6 @@ int main(int argc, char** argv) {
         strcat(cmd, argv[i]);
         strcat(cmd, "\"");
     }
-    printf("%s\n", cmd);
     system(cmd);
     return 0;
 }
